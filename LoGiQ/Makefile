@@ -24,6 +24,8 @@ main.o:: main.cpp
 	g++ -c main.cpp
 test:
 	@./exe
+install:
+	sudo apt-get install libsfml-dev
 org: $(DIE)
 	mv *.o $(DIE)
 clr:
